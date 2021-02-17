@@ -1,0 +1,40 @@
+{
+  "name": "@awwmicky/url-query-params",
+  "version": "1.1.0",
+  "description": "NPM for converting url queries",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo \"No test specified\"",
+    "start": "node ."
+  },
+  "keywords": [
+    "github",
+    "actions",
+    "release",
+    "release-automation",
+    "github-actions",
+    "node",
+    "npm",
+    "string",
+    "object",
+    "url-queries",
+    "query-converter"
+  ],
+  "author": "awwmicky",
+  "license": "ISC",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awwmicky/url-query-params.git"
+  },
+  "bugs": {
+    "url": "https://github.com/awwmicky/url-query-params/issues"
+  },
+  "homepage": "https://github.com/awwmicky/url-query-params#readme"
+}

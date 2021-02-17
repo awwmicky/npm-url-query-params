@@ -68,7 +68,10 @@
   - GitHub Actions allows to automate specific set of steps after an update happens
     - CI: run some tests / perform some branching
     - CD: deploy to 'web server' / 'package registry' / 'to a given destination'
-1. 
+- workflow purpose
+  - CI: merge new code into code base
+  - CD: push code out to app/customers
+
 ---
 
 ## Sources
