@@ -26,4 +26,7 @@ const urlQueryParams = (item) => {
   return false;
 };
 
-module.exports = { urlQueryParams }
+if (
+  typeof exports !== "undefined" || 
+  typeof module !== "undefined"
+) module.exports = { urlQueryParams }

@@ -1,7 +1,7 @@
 {
   "name": "@awwmicky/url-query-params",
-  "version": "1.1.0",
-  "description": "NPM for converting url queries",
+  "version": "1.0.1",
+  "description": "NPM for converting URL queries",
   "main": "index.js",
   "files": [
     "index.js"
@@ -14,17 +14,20 @@
     "github",
     "actions",
     "release",
+    "package",
     "release-automation",
     "github-actions",
     "node",
     "npm",
+    "module",
+    "url",
     "string",
     "object",
-    "url-queries",
+    "url-query",
     "query-converter"
   ],
   "author": "awwmicky",
-  "license": "ISC",
+  "license": "MIT",
   "directories": {
     "doc": "doc",
     "test": "test"

@@ -11,6 +11,8 @@
   - [x] .gitignore
   - [x] README.md
     - [ ] apply status
+    - [ ] have links: github / npm / cdn
+    - [ ] apply badges: npm v / github r
   - [ ] LICENSE.md
     - [ ] apply MIT
 
