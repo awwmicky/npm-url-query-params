@@ -1,4 +1,4 @@
-const print = console.log;
+// const print = console.log;
 
 const urlQueryParams = (item) => {
   if (!item) return false;

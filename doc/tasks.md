@@ -1,3 +1,5 @@
+[← go back](../README.md)
+---
 # Tasks
 
 ## Checklist
@@ -7,7 +9,7 @@
   - [x] production
 
 - [ ] create files
-  - [ ] .github/workflows
+  - [x] .github/workflows
   - [x] .gitignore
   - [x] README.md
     - [ ] apply status
@@ -18,16 +20,19 @@
 
 - [ ] setup GitHub Actions
   - [ ] CI/CD: test & build
-  - [ ] set auth tokens
+  - [x] set auth tokens
 
 - [ ] automate per update
   - [ ] NPM Packages
-  - [ ] GitHub Packages (~/.npmrc)
+  - [ ] GitHub Packages
   - [ ] GitHub Releases (tags/zip)
 
 - [ ] technologies to use
-  - [ ] node
-  - [ ] npm
+  - [x] node
+  - [x] npm
   - [ ] typescript
+    - [ ] convert to index.min.js
   - [ ] jest/jasmine
-  - [ ] github actions
+    - [ ] implement unit testing
+  - [x] yaml
+    - [ ] runs on github actions

@@ -1,4 +1,4 @@
-# URL Query Converter
+# URL Query Params
 
 [GitHub](https://github.com/awwmicky/npm-url-query-params)
 | 
@@ -7,6 +7,7 @@
 [CDN](https://unpkg.com/@awwmicky/url-query-params/index.js)
 
 ---
+
 ## What is this?
 
 A URL query converter, transfering the key value pairs, from string to object & viceversa.
