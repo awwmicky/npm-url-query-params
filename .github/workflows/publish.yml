@@ -1,9 +1,11 @@
 name: "🚀 Publish & Release"
 
 on:
-  release:
+  push:
+    branches: [master]
+  # release:
     # types: [published]
-    types: [created]
+    # types: [created]
 
 jobs:
   build:
