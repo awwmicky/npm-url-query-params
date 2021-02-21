@@ -24,7 +24,8 @@
     "string",
     "object",
     "url-query",
-    "query-converter"
+    "query-converter",
+    "cdn"
   ],
   "author": "awwmicky",
   "license": "MIT",
