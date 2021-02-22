@@ -39,19 +39,19 @@ jobs:
   #         NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
 
   publish-gpr:
-      needs: build
-      runs-on: ubuntu-latest
-      steps:
-        - name: 📚 checkout
-          uses: actions/checkout@v2
-        - name: 🟢 node
-          uses: actions/setup-node@v1
-          with:
-            node-version: 12
-            always-auth: true
-            registry-url: https://npm.pkg.github.com/
-            scope: '@awwmicky'
-        - run: npm install
-        - run: npm publish
-          env:
-            NODE_AUTH_TOKEN: ${{secrets.GH_AUTH_TOKEN}}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📚 checkout
+        uses: actions/checkout@v2
+      - name: 🟢 node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          # always-auth: true
+          registry-url: https://npm.pkg.github.com/
+          scope: '@awwmicky'
+      - run: npm install
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.GH_AUTH_TOKEN}}
