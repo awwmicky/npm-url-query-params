@@ -1,4 +1,4 @@
-const { urlQueryParams } = require('../index.js');
+const { urlQueryParams } = require('../src/index.js');
 const using = require('./using.js');
 const print = console.log;
 

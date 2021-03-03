@@ -1,10 +1,15 @@
 # URL Query Params
 
+[![npm](https://img.shields.io/npm/v/@awwmicky/url-query-params?logo=npm)](https://www.npmjs.com/package/@awwmicky/url-query-params)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/awwmicky/url-query-params?logo=github)](https://github.com/awwmicky/url-query-params/packages/633011)
+[![🚀 Publish & Release](https://github.com/awwmicky/url-query-params/actions/workflows/publish.yml/badge.svg?branch=master)](https://github.com/awwmicky/url-query-params/actions/workflows/publish.yml)
+![GitHub file size in bytes](https://img.shields.io/github/size/awwmicky/url-query-params/src/index.js?color=teal)
+
 [GitHub](https://github.com/awwmicky/npm-url-query-params)
 | 
 [NPM](https://www.npmjs.com/package/@awwmicky/url-query-params)
 |
-[CDN](https://unpkg.com/@awwmicky/url-query-params/index.js)
+[CDN](https://unpkg.com/@awwmicky/url-query-params/src/index.js)
 
 ---
 
@@ -20,7 +25,7 @@ run `npm install @awwmicky/url-query-params`
 
 or
 
-copy `<script src="https://unpkg.com/@awwmicky/url-query-params/index.js"></script>`
+copy `<script src="https://unpkg.com/@awwmicky/url-query-params/src/index.js"></script>`
 
 ## How to use this?
 
@@ -49,4 +54,6 @@ console.log(convertToStr) // "?q2=jay&q4=987"
 | 
 [NPM](https://www.npmjs.com/package/@awwmicky/url-query-params)
 |
-[CDN](https://unpkg.com/@awwmicky/url-query-params/index.js)
+[CDN](https://unpkg.com/@awwmicky/url-query-params/src/index.js)
+
+<!-- https://shields.io/ -->
