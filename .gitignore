@@ -2,7 +2,7 @@
 .vscode
 
 # dependencies
-node_modules
+/node_modules/
 # package-lock.json
 
 # secrets
@@ -10,3 +10,4 @@ node_modules
 
 # other
 .DS_Store
+tsconfig.json

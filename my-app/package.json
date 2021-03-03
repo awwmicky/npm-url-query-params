@@ -11,6 +11,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@awwmicky/url-query-params": "^1.0.0"
+    "@awwmicky/url-query-params": "^1.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
   }
 }
